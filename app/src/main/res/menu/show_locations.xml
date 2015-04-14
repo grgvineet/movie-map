@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.vineet.filmspot.ShowLocations" >
+    <item android:id="@+id/normal"
+        android:title="Map type Normal"
+        android:showAsAction="never" />
+
+    <item android:id="@+id/satellite"
+        android:title="Map type Satellite"
+        android:showAsAction="never" />
+
+    <item android:id="@+id/terrain"
+        android:title="Map type Terrain"
+        android:showAsAction="never" />
+
+    <item android:id="@+id/hybrid"
+        android:title="Map type Hybrid"
+        android:showAsAction="never" />
+
+
+</menu>

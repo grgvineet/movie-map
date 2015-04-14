@@ -1,0 +1,276 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.vineet.filmspot.DisplayActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:stretchColumns="1"
+            android:shrinkColumns="1"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView"
+                android:layout_gravity="center_horizontal"
+                android:paddingRight="3dp"
+                android:background="#ff0f7828"
+
+                />
+
+            <TableRow
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Genre "
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="N/A"
+                    android:id="@+id/genre"
+                    android:singleLine="false"
+                    />
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Release year"
+                    android:paddingBottom="5dp"
+                    android:paddingRight="15dp"
+                    />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Release year"
+                    android:id="@+id/releaseyear"
+                    />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Production"
+                android:paddingBottom="5dp"
+                />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="production"
+                    android:id="@+id/production"
+                    />
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Distrubutor"
+                    android:paddingBottom="5dp"
+                    />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Distrubutor"
+                    android:id="@+id/distributor"
+                    />
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Director"
+                    android:paddingBottom="5dp"
+                    />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Director"
+                    android:id="@+id/director"
+                    />
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Writer"
+                    android:paddingBottom="5dp"
+                    />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="writer"
+                    android:id="@+id/writer"
+                    />
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Actors"
+                    android:paddingBottom="5dp"
+                    />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="N/A"
+                    android:id="@+id/actor1"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Fun fact "
+
+                    android:paddingBottom="5dp"
+                    />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="N/A"
+                    android:id="@+id/funfact"
+                    android:singleLine="false"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Plot "
+
+                    android:paddingBottom="5dp"
+                    />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="N/A"
+                    android:id="@+id/plot"
+                    android:singleLine="false"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Awards "
+
+                    android:paddingBottom="5dp"
+                    />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="N/A"
+                    android:id="@+id/award"
+                    android:singleLine="false"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="IMDb rating "
+
+                    android:paddingBottom="5dp"
+                    />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="N/A"
+                    android:id="@+id/imdbrating"
+                    android:singleLine="false"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Trailer "
+
+                    android:paddingBottom="5dp"
+                    />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="N/A"
+                    android:id="@+id/trailer"
+                    android:singleLine="false"
+                    />
+
+            </TableRow>
+
+
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Show Locations"
+                android:id="@+id/mapButton"
+                android:background="@drawable/button"
+                android:textColor="#ffffffff"
+
+
+                />
+
+        </TableLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="button1">#ff0f7828</color>
+    <color name="button2">#aa0f7828</color>
+    <color name="button_deactivated">#550f7828</color>
+
+    <color name="listPressed">#66b90000</color>
+    <color name="listNormal">#00ffffff</color>
+
+    <color name="my_spinner_text_color">#ffb90000</color>
+
+</resources>

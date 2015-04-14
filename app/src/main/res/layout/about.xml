@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:background="#ff000000"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Movie Map is a fun app for San Francisco lovers which shows about the movies shot in San Francisco. It also shows the location of movies shootings on google map\n"
+        android:id="@+id/textView"
+        android:textColor="#ffffffff"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Movie Map uses the data given on data.sfgov.org\n "
+        android:id="@+id/textView2"
+        android:textColor="#ffffffff"
+    />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="It also uses external apis like TMDb api to fetch details about movie so there may be a case where any data about that detail is not fetched so that field is marked as N/A, also when locations are not known, the locations button is disabled"
+        android:id="@+id/textView3"
+        android:textColor="#ffffff"/>
+</LinearLayout>
